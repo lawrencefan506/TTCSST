@@ -45,3 +45,5 @@ class specialSightings(models.Model):
     routeGarage = models.CharField(max_length=50)
     datetime = models.DateTimeField(auto_now_add=True) # Set to True if you want to set the date and time to the current date and time only when the object is created.
 
+    class Meta:
+        verbose_name_plural = "Special Sightings"    

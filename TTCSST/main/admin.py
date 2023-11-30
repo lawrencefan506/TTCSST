@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import busAllocations, routes, routeAllocations, specialSightings
+from .models import *
 
 
 

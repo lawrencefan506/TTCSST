@@ -1,8 +1,14 @@
 from django.shortcuts import render, HttpResponse
+from scripts import tracker
 
 # Create your views here.
-def home(request):
-    return HttpResponse("<h1>Welcome to TTC Special Sightings Tracker</h1>")
+def home(response):
+
+    time, specials = tracker.tracker()
+
+    return render(response, "main/home.html", {"updateTime": time,
+                                               "specials": specials
+                                               })
 
 def allocations(request):
     return HttpResponse("<h1>Current Allocations</h1>")
