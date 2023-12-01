@@ -1,0 +1,48 @@
+{
+    "copyright": "All data copyright Toronto Transit Commission 2023.",
+    "predictions": {
+        "routeTag": "52",
+        "stopTag": "14192_ar",
+        "routeTitle": "52-Lawrence West",
+        "agencyTitle": "Toronto Transit Commission",
+        "stopTitle": "Eglinton Station",
+        "direction": {
+            "prediction": [
+                {
+                    "seconds": "1187",
+                    "tripTag": "46525004",
+                    "minutes": "19",
+                    "isDeparture": "false",
+                    "block": "52_17_170",
+                    "dirTag": "52_0_52Acon",
+                    "branch": "52",
+                    "epochTime": "1701401521621",
+                    "vehicle": "3546"
+                },
+                {
+                    "seconds": "2266",
+                    "tripTag": "46525033",
+                    "minutes": "37",
+                    "isDeparture": "false",
+                    "block": "52_7_70",
+                    "dirTag": "52_0_52Bcon",
+                    "branch": "52",
+                    "epochTime": "1701402600975",
+                    "vehicle": "8884"
+                },
+                {
+                    "seconds": "2419",
+                    "tripTag": "46525003",
+                    "minutes": "40",
+                    "isDeparture": "false",
+                    "block": "52_9_90",
+                    "dirTag": "52_0_52Acon",
+                    "branch": "52",
+                    "epochTime": "1701402753989",
+                    "vehicle": "1379"
+                }
+            ],
+            "title": "East - 52 Lawrence West towards Eglinton Station via Avenue Rd"
+        }
+    }
+}
