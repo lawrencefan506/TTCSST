@@ -4,5 +4,13 @@
 <h1>Welcome to TTC Special Sightings Tracker</h1>
 <h3>Current Special Sightings:</h3>
 <p>Updated at: {{updateTime}}</p>
-<p>{{specials}}</p>
+<p>
+    {% if len(specials) != 0 %}
+    <ul>
+        {% for ss in specials %}
+            <li>{{ss.bus}} ({{ss.busGarage}}) on route {{ss.route}} {{ss.headsign}} - run {{ss.run}} ({{ss.routeGarage}})</li>
+        {% endfor %}
+    </ul>
+    {% endif %}
+</p>
 {% endblock %}

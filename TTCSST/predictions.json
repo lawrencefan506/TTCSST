@@ -1,48 +1,102 @@
 {
-    "copyright": "All data copyright Toronto Transit Commission 2023.",
+    "copyright": "All data copyright Toronto Transit Commission 2024.",
     "predictions": {
-        "routeTag": "52",
-        "stopTag": "14192_ar",
-        "routeTitle": "52-Lawrence West",
+        "routeTag": "939",
+        "stopTag": "5913",
+        "routeTitle": "939-Finch Express",
         "agencyTitle": "Toronto Transit Commission",
-        "stopTitle": "Eglinton Station",
-        "direction": {
-            "prediction": [
-                {
-                    "seconds": "1187",
-                    "tripTag": "46525004",
-                    "minutes": "19",
-                    "isDeparture": "false",
-                    "block": "52_17_170",
-                    "dirTag": "52_0_52Acon",
-                    "branch": "52",
-                    "epochTime": "1701401521621",
-                    "vehicle": "3546"
-                },
-                {
-                    "seconds": "2266",
-                    "tripTag": "46525033",
-                    "minutes": "37",
-                    "isDeparture": "false",
-                    "block": "52_7_70",
-                    "dirTag": "52_0_52Bcon",
-                    "branch": "52",
-                    "epochTime": "1701402600975",
-                    "vehicle": "8884"
-                },
-                {
-                    "seconds": "2419",
-                    "tripTag": "46525003",
-                    "minutes": "40",
-                    "isDeparture": "false",
-                    "block": "52_9_90",
-                    "dirTag": "52_0_52Acon",
-                    "branch": "52",
-                    "epochTime": "1701402753989",
-                    "vehicle": "1379"
-                }
-            ],
-            "title": "East - 52 Lawrence West towards Eglinton Station via Avenue Rd"
-        }
+        "stopTitle": "Finch Ave East At Brimley Rd",
+        "direction": [
+            {
+                "prediction": [
+                    {
+                        "seconds": "1126",
+                        "tripTag": "46669721",
+                        "minutes": "18",
+                        "isDeparture": "false",
+                        "block": "939_17_170",
+                        "dirTag": "939_0_939B",
+                        "branch": "939B",
+                        "epochTime": "1704590998171",
+                        "vehicle": "3104"
+                    },
+                    {
+                        "seconds": "3314",
+                        "tripTag": "46669718",
+                        "minutes": "55",
+                        "isDeparture": "false",
+                        "block": "939_4_40",
+                        "dirTag": "939_0_939B",
+                        "branch": "939B",
+                        "epochTime": "1704593185975",
+                        "vehicle": "3139"
+                    }
+                ],
+                "title": "East - 939b Finch Express towards Kennedy Stn via Finch Station and Scarborough Ctr Stn"
+            },
+            {
+                "prediction": [
+                    {
+                        "seconds": "303",
+                        "tripTag": "46669725",
+                        "minutes": "5",
+                        "isDeparture": "false",
+                        "block": "939_15_150",
+                        "dirTag": "939_0_939A",
+                        "branch": "939A",
+                        "epochTime": "1704590174539",
+                        "vehicle": "3295"
+                    },
+                    {
+                        "seconds": "1007",
+                        "tripTag": "46669719",
+                        "minutes": "16",
+                        "isDeparture": "false",
+                        "block": "939_2_20",
+                        "dirTag": "939_0_939A",
+                        "branch": "939A",
+                        "epochTime": "1704590878734",
+                        "vehicle": "3134"
+                    },
+                    {
+                        "affectedByLayover": "true",
+                        "seconds": "1450",
+                        "tripTag": "46669720",
+                        "minutes": "24",
+                        "isDeparture": "false",
+                        "block": "939_26_262",
+                        "dirTag": "939_0_939A",
+                        "branch": "939A",
+                        "epochTime": "1704591321875",
+                        "vehicle": "8939"
+                    },
+                    {
+                        "affectedByLayover": "true",
+                        "seconds": "2322",
+                        "tripTag": "46669716",
+                        "minutes": "38",
+                        "isDeparture": "false",
+                        "block": "939_20_200",
+                        "dirTag": "939_0_939A",
+                        "branch": "939A",
+                        "epochTime": "1704592193531",
+                        "vehicle": "3163"
+                    },
+                    {
+                        "affectedByLayover": "true",
+                        "seconds": "2922",
+                        "tripTag": "46669715",
+                        "minutes": "48",
+                        "isDeparture": "false",
+                        "block": "939_13_130",
+                        "dirTag": "939_0_939A",
+                        "branch": "939A",
+                        "epochTime": "1704592793531",
+                        "vehicle": "3242"
+                    }
+                ],
+                "title": "East - 939a Finch Express towards Kennedy Stn via Scarborough Ctr Stn"
+            }
+        ]
     }
 }

@@ -25,7 +25,7 @@ class specialSightingsAdmin(admin.ModelAdmin):
     list_display = ('busNumber', 'busGarage', 'runNumber', 'runGarage', 'datetime')
     search_fields = ('busNumber', 'busGarage', 'runNumber', 'runGarage', 'datetime')
     list_filter = ('busNumber', 'busGarage', 'runNumber', 'runGarage', 'datetime')
-    ordering = ('datetime',)
+    ordering = ('-datetime', 'busNumber',)
 
 # Register your models here.
 admin.site.register(busAllocations, busAllocationsAdmin)

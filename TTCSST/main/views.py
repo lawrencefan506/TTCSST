@@ -5,7 +5,6 @@ from scripts import tracker
 def home(response):
 
     time, specials = tracker.tracker()
-
     return render(response, "main/home.html", {"updateTime": time,
                                                "specials": specials
                                                })

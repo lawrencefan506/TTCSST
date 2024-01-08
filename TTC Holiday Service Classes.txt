@@ -1,0 +1,5 @@
+TTC Holiday Service Classes
+
+Christmas: XMDY
+Boxing day: BSDY
+NYE: NYEVE

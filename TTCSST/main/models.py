@@ -40,10 +40,10 @@ class routeAllocations(models.Model):
 class specialSightings(models.Model):
     busNumber = models.ForeignKey(busAllocations, on_delete=models.PROTECT) #PROTECT: buses should never be deleted
                                                                             #Need to take into account reusing of numbers for the future...
-    busGarage = models.CharField(max_length=50)
-    runNumber = models.ForeignKey(routes, on_delete=models.PROTECT)
-    runGarage = models.CharField(max_length=50)
+    busGarage = models.CharField(max_length=100)
+    runNumber = models.CharField(max_length=20)
+    runGarage = models.CharField(max_length=100)
     datetime = models.DateTimeField(auto_now_add=True) # Set to True if you want to set the date and time to the current date and time only when the object is created.
 
     class Meta:
-        verbose_name_plural = "Special Sightings"    
+        verbose_name_plural = "Special Sightings"  
